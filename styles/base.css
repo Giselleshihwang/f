@@ -42,7 +42,7 @@ main {
 /* Style the header */
 header {
     text-align: center;
-    background-color: #0c4564;
+    background-color: #02285a;
     color: #ffffff;
     display: flex;
     justify-content: center;
@@ -61,10 +61,9 @@ nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: #1b4979;
+    background-color: #356782;
     border-style: solid;
     border-width: medium;
-
 }
 
 nav ul li {
@@ -85,6 +84,7 @@ nav ul li a {
     background-color: #fff;
     border: 1px solid #ccc;
     margin-bottom: 20px;
+    height: 150px;
 }
 .card ul li {
     list-style: none;
