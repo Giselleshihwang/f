@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Josefin+Sans:wght@200&display=swap');
 body {
+    margin: 0 auto;
     font-family: Arial, sans-serif;
     text-align: center;
+    max-width: 800PX;
     background-color: #f0f0f0;
 }
 /* Style the header */
@@ -69,6 +72,7 @@ nav {
 
 }
 
+
 nav ul li {
     display: inline-block;
     flex: 1 1 100%;
@@ -82,6 +86,8 @@ nav ul li {
 
 nav ul li a {
     color: #ffffff;
+    display: block;
+    padding: 10px;
 }
 
 .card {

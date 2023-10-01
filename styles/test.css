@@ -1,0 +1,26 @@
+/* Reset some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply your color schema and typography choices */
+body {
+    font-family: 'Your Chosen Font', sans-serif;
+    /* Set your desired background color, text color, etc. */
+}
+
+/* Define the main container layout using CSS Grid */
+.main-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Style for each card */
+.card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    /* Add other styles like border-radius, box-shadow, etc. */
+}
