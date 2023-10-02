@@ -1,0 +1,32 @@
+header {
+    text-align: center;
+    background-color: #023d5a;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+}
+nav {
+    font-family: 'Arial', sans-serif;
+    width: 100%;
+    overflow: hidden;
+    background-color: #13b2b2;
+    display: block;
+    margin: 0px;
+}
+
+nav ul li {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer {
+    display: block;
+    background-color: #356782;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}

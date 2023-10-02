@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Josefin+Sans:wght@200&display=swap');
 @media (min-width: 640px) {
 body {
+
     margin: 0 auto;
-    font-family: Arial, sans-serif;
+    font-family: "Times New Roman", Times, serif;
     text-align: center;
     max-width: 800PX;
     background-color: #f0f0f0;
@@ -25,12 +25,10 @@ header img {
 }
 
 h1 {
-    font-family: Arial, sans-serif;
     color: #ffffff;
 }
 
 h2 {
-    font-family: Arial, sans-serif;
     font-weight: 300;
     margin: 70px;    
     padding: 0;
@@ -38,7 +36,6 @@ h2 {
 }
 
 h3 {
-    font-family: 'Arial', sans-serif;
     background-color: #0c406c;
     color: white;
     text-align: center;
@@ -64,7 +61,6 @@ nav {
     list-style-type: none;
     margin: 0;
     background-color: #356782;
-    font-family: 'Arial', sans-serif;
     width: 100%;
     overflow: hidden;
     display: block;

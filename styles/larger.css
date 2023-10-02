@@ -2,12 +2,12 @@
     
     /* html selector*/
     body {
-        font-family: 'Manrope', sans-serif;
+        font-family: "Times New Roman", Times, serif;
     }
     
     header {
         text-align: center;
-        background-color: #02285a;
+        background-color: #023d5a;
         color: #ffffff;
         display: flex;
         justify-content: center;
@@ -33,7 +33,7 @@
         font-weight: 300;
         margin: 70px;
         font-family: 'Arial', sans-serif;
-        color: #0c406c;
+        color: #023d5a;
     }
     
     h3 {
@@ -64,7 +64,6 @@
         overflow: hidden;
         background-color: #356782;
         display: block;
-        max-width: 2000px;
         margin: 0px;
     }
     
