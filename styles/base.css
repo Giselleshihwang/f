@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Josefin+Sans:wght@200&display=swap');
+@media (min-width: 640px) {
 body {
     margin: 0 auto;
     font-family: Arial, sans-serif;
@@ -62,7 +63,6 @@ nav {
     text-align: center;
     list-style-type: none;
     margin: 0;
-    padding: 5px;
     background-color: #356782;
     font-family: 'Arial', sans-serif;
     width: 100%;
@@ -113,4 +113,5 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
 }
