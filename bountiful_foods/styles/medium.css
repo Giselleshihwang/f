@@ -1,0 +1,82 @@
+@media screen and (min-width: 650px){
+
+    #main-grid {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+    }
+
+    #main-grid >*{
+        padding: 30px;
+        width: 250px;
+        margin: 20px;
+        
+    }
+
+    #site-info, #site-info2, #myinfo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    #site-info >*, #site-info2 >*, #myinfo >* {
+        padding: 5px;
+        
+
+    }
+
+    #summary img {
+        width: 400px;
+        padding: 10px;
+    }
+
+    #cont {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: wheat;
+    }
+
+    #cont p{
+        max-width: 800px;
+        padding: 20px;
+        color:black;
+    }
+
+    #fresh-main {
+    
+        text-align: center;
+        background-color: wheat ;
+        display: flex;
+        justify-content: center;
+        
+        
+        
+    }
+
+    #view {
+        padding: 10px;
+        
+        color:black;
+        text-align: center;
+        background-color: wheat;
+       margin-top: 10px;
+       margin-bottom: 10px;
+        
+    
+        
+    }
+
+    iframe {
+        width: 400px;
+    }
+
+    
+
+
+
+
+    
+}

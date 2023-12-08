@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@300&family=Roboto+Slab&display=swap');
+
+body {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: wheat;
+}
+
+table {
+    grid-column: 2/3;
+    width: 90%;
+    margin: 40px auto;
+    border: 2px solid blue;
+    border-collapse: collapse;
+}
+
+tr td {
+    border: 1px solid blue;
+    padding: 5px;
+}
+
+.tablehead {
+    font-weight: bold;
+    border: 2px solid blue;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    padding: 15px;
+}
+
+nav ul {
+    display:flex;
+    justify-content: space-evenly;
+
+}
+
+nav ul li {
+    height: 29%;
+}
+
+
+nav ul {
+    margin: 10px;
+    padding: 30px;
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    
+
+    display: inline;
+}
+
+nav a:hover {
+    background-color: blue;
+}
+
+
+
+h2,h3{
+    font-family: 'Roboto Slab', serif;
+    color: cornflowerblue;
+    padding: 10px;
+    
+}
+h1{
+    font-family: 'Roboto Slab', serif;
+    color: crimson;
+    padding: 10px;
+}
+
+p{
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    margin: 15px;
+   
+}
+
+nav {
+    background-color: firebrick;
+    height: 150px;
+    width: 100%;
+}
+
+main{
+    max-width: 100%;
+}
+#title{
+    background-color: crimson;
+}
+#title2{
+    background-color: cornflowerblue;
+}
+
+#backgroup{
+    background-color: wheat;
+}
+#navcolor{
+    background-color: firebrick;
+}
+
+@media screen and (min-width:600px){
+    nav {
+        height: 100px;
+    }
+    
+    nav ul {
+        display:flex;
+        justify-content: space-evenly;
+    }
+    
+    nav ul li {
+        width: 33%;
+    }
+
+}
+
+

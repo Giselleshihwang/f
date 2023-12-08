@@ -1,0 +1,39 @@
+label, input {
+    display: block;
+    }
+
+label {
+    margin: 20px 0,0,0;
+}
+
+h1{font-size: 50px;}
+
+label, input{
+    display: block;
+    font-size: 1.5em;
+}
+label{
+    margin-top: 20px;
+}
+.navigation{
+    background-color: #d9781d;
+}
+.join{
+    display: none;
+}
+.member-info{
+   border: solid rgb(143, 64, 0) 3px;
+   border-radius: 25px;
+   text-align: center;
+
+}
+
+@media screen and (min-width: 1000px){
+    #join_content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.member-info{
+    grid-column: 2/3;
+}
+}
