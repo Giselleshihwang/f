@@ -173,6 +173,8 @@ function count(){
    
     
 }
+
+
 document.querySelector("#submitBtn2").addEventListener("click",count);
 
 
