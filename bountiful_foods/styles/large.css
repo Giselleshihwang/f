@@ -1,22 +1,8 @@
 @media screen and (min-width: 1000px) {
 
-    /*h1, h2, h3 {
-        font-family: 'Courgette', cursive;
-    }
-
-    nav h3 {
-        color: #FFD23F;
-    }
-    
-    nav img {
-        width: 100px;
-    }*/
-
-    
-
 
     nav {
-        background-color: wheat;
+        background-color: rgb(253, 214, 140);
         display: flex;
         justify-content: space-evenly;
         
@@ -27,9 +13,9 @@
     nav a {
         margin: 20px;
         padding: 20px;
-        background-color: lightblue;
+        background-color: rgb(204, 227, 194);
         align-self: center;
-        color: black;
+        color: rgb(46, 70, 110);
         text-decoration: none;
         font-family: 'Lato', sans-serif;
         border-radius: 10px;
@@ -47,47 +33,13 @@
         display: flex;
     }
 
-    /*#right {
-        align-self: center;
     
-
-    #left {
-        display: flex;
-        
-    }
-
-    #left h3 {
-        align-self: center;
-    }
-
-    main img {
-        width: 100%;
-    }
-
-    #hero {
-        position: relative;
-        
-    }
-
-    #hero-mess {
-        position: absolute;
-        top: 0;
-        margin-left: auto;
-        margin-right: auto;
-        left: 0;
-        right: 0;
-        text-align: center;
-        background: rgba(255, 204, 51, 0.3)
-        
-        
-    }*/
-
     .hamButton {
         display: none;
     }
 
     #about-main{
-        background-color: black;
+        background-color: rgb(46, 70, 110);
         display: flex;
         justify-content: space-around;
     }

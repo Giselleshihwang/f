@@ -6,7 +6,7 @@ let z = document.querySelector("#fruits3");
 form = document.querySelector("form");
 info = document.querySelector("#info");
 
-const url2 = "https://andejuli.github.io/wdd230/fruit.json";
+const url2 = "https://giselleshihwang.github.io/wdd230/bountiful_foods/fruit.json";
 
 const getFruit = async () => {
     const response = await fetch(url2);
@@ -146,14 +146,6 @@ const getFruit = async () => {
         info.appendChild(sugar);
         info.appendChild(calories);
 
-
-        //test();
-
-        
-
-
-        
-    
       }
       
 
@@ -162,18 +154,6 @@ const getFruit = async () => {
 
     
   };
-
-
-  //function test(){
-
-
-        //h2 = document.createElement("h2");
-
-
-        //h2.textContent = 'Summary Information:';
-
-        //form.appendChild(h2);
-//}
 
 
 

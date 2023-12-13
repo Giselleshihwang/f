@@ -5,13 +5,14 @@
         flex-wrap: wrap;
         text-align: center;
         justify-content: center;
+        border-radius: 25px;
     }
 
     #main-grid >*{
         padding: 30px;
         width: 250px;
         margin: 20px;
-        
+        border-radius: 25px;
     }
 
     #site-info, #site-info2, #myinfo {
@@ -36,7 +37,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        background-color: wheat;
+        background-color: rgb(253, 214, 140);
     }
 
     #cont p{
@@ -48,7 +49,7 @@
     #fresh-main {
     
         text-align: center;
-        background-color: wheat ;
+        background-color: rgb(253, 214, 140) ;
         display: flex;
         justify-content: center;
         
@@ -59,9 +60,9 @@
     #view {
         padding: 10px;
         
-        color:black;
+        color:rgb(46, 70, 110);
         text-align: center;
-        background-color: wheat;
+        background-color: rgb(253, 214, 140);
        margin-top: 10px;
        margin-bottom: 10px;
         

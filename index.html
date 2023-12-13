@@ -15,7 +15,8 @@
     <link rel="stylesheet" href="style/base.css">
     <link rel="stylesheet" href="style/larger.css">
 </head>
-<body>
+<body class="dark-mode">
+    <button id="darkModeToggle">Dark Mode</button>
     <header>
         <img src="images/profolio.jpg" alt="Profile Image">
 
@@ -57,6 +58,17 @@
     </footer>
     
     <script src="scripts/getdates.js"></script>
+    <script>
+        // Function to toggle dark mode
+        function toggleDarkMode() {
+          const body = document.body;
+          body.classList.toggle('dark-mode'); // Toggle 'dark-mode' class
+        }
+      
+        // Event listener for dark mode toggle button
+        document.getElementById('darkModeToggle').addEventListener('click', toggleDarkMode);
+      </script>
+      
 
 
 </body>
